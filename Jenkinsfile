@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/Waseem-Irfan-100/devops-assign-2023bcs0100.git'
+                git branch: 'main', url: 'https://github.com/Waseem-Irfan-100/devops-assign-2023bcs0100.git'
             }
         }
 
